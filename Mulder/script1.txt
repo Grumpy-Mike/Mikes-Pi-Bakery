@@ -1,0 +1,63 @@
+#, Mulder script for video
+background
+delay, 5.0
+sound, 5
+go
+right eye, 1500, 0, 0
+go
+sound, 5
+move right eye, 192
+go
+delay, 2.0
+sound, 5
+move right eye, 257
+go
+right eye, 2480, 4088, 1608
+left eye, 2480, 4088, 1608
+go
+nose, 0, 1000, 0
+cranium, 1000, 1000, 2000
+jaw, closed
+go
+sound, 3
+go
+neck, 337
+right eye, 2480, 0, 0
+left eye, 2480, 0, 0
+go
+jaw, open
+fade steps, 2.0
+right eye, 0,2480, 0
+left eye, 0,2480, 0
+go
+delay, 0.3
+right eye, 2480, 0, 0
+left eye, 2480, 0, 0
+go
+delay 0.3
+right eye, 0,2480, 0
+left eye, 0,2480, 0
+go
+delay, 0.3
+right eye, 2480, 0, 0
+left eye, 2480, 0, 0
+go
+fade steps, 40.0
+sound, 2
+go
+jaw, closed
+sound, 1
+go
+jaw, open
+sound, 0
+neck, 250
+go
+right eye, 0, 0, 0
+left eye, 0, 0, 0
+nose, 0, 0, 0
+cranium, 0, 0, 0
+go
+sound, 5
+delay, 4.5
+backgroundOff
+quit

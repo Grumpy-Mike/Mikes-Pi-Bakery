@@ -1,0 +1,76 @@
+Mulder Scripting notes
+by
+Mike Cook September 2015
+
+For a description of Mulder please see The MagPI No 38 October 2015
+
+Mulder Script allows full control of Mulder by a pre defined script
+The script is a text file and can run as a one off or set to repeat. 
+ 
+Each line including any comma separated variables defines a single command.
+Any number of commands can be set up and they will all execute together on the 'go' command.
+Scripts that do not contain a 'quit' will loop, on the start of each loop debug will be set to off.
+A small blank window will open when a script is running, while this has the focus clicking the X box or pressing Esc will terminate the program. Mulder shuts down by going to the default position before the program terminates.
+
+On termination Mulder will return to its default starting position.
+
+There is some checking on parameters and non existent commands so hopefully preventing a program crash, but it might be fooled by some scripting errors and could result in a program crash.  
+
+Mulder will respond to the following commands:-
+
+MOVEMENT
+move left eye, n
+move right eye, n
+neck, n
+jaw, [state] - where state is either open or closed
+where n is a number constrained in software to be within physical limits of the model.
+
+LIGHTS
+left eye, n1, n2, n3
+right eye, n1, n2, n3
+nose, n1, n2, n3
+cranium , L1, L2, L3
+fade steps, f  - the number of steps to make in a fade, f is a floating point number, the default is 40.0
+
+where n1 = red, n2 = green, n3 = blue, Lx = white LED value
+all numbers are between 0 and 4095 - wrapped round by software
+
+SOUND
+sound, n   - Where n is the number of the sound sample
+background - Runs the file sounds/thunderLong.wav as a background sound on a continuous loop
+backgroundOff - Fades down the background sound to off over two seconds
+
+OTHER
+debug    - toggles debug mode causes script command lines to be printed
+quit     - ends the program
+#,       - comment line
+go       - executes actions set up and returns when done
+delay, f - delays in seconds given by floating point value f
+
+
+Mulder Scripting numbers
+
+Lights - white on RGB LEDs = 2480, 4088, 1608
+
+MOVEMENT
+Eyes Straight on ( default position)
+move left eye, 269
+move right eye, 257
+
+Eyes left
+move left eye, 233
+move right eye, 192
+
+Eyes right
+move left eye, 322
+move right eye, 298
+
+Neck
+neck, 337 - full left
+neck, 117 - full right
+neck, 250 - straight forward (default position)
+
+JAW - jaw movement is as fast as the servo allows
+jaw, open  (default position)
+jaw, close
+

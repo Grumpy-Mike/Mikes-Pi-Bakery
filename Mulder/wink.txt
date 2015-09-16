@@ -1,0 +1,13 @@
+#, Mulder wscript for a wink
+move left eye, 300
+go
+fade steps, 2.0
+left eye, 1500, 0, 0
+go
+delay, 0.2
+left eye, 0, 0, 0
+go
+delay, 5.0
+move left eye, 230
+go
+delay, 5.0
