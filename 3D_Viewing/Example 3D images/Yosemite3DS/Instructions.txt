@@ -1,0 +1,5 @@
+Drop the 2600YOSE subdirectory into the DCIM folder on the SD Card, then load the photo viewer.
+The 3DS might have to process and prepare the pictures, so be patient.
+Once ready, you'll be able to view my pictures.  They should have a date of 01/01/2010.
+
+For more images like this see the web site http://www.mathpirate.net/3DS/

@@ -1,0 +1,5 @@
+Drop the 2600CCAL subdirectory into the DCIM folder on the SD Card, then load the photo viewer.
+The 3DS might have to process and prepare the pictures, so be patient.
+Once ready, you'll be able to view my pictures.  They should have a date of 01/02/2010.
+
+For more images see:- http://www.mathpirate.net/3DS/
