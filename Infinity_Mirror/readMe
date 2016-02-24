@@ -1,0 +1,12 @@
+This is the software, for the Infinity_mirror Part 1, published 
+in The MagPi No. 43 March 2016
+
+distance.py - tests the distance sensor.
+mirror1.py - is the full code for the project so far
+
+Images - contains some extra photos of the project
+
+A video of this project can be seen at:-
+https://vimeo.com/156278316
+
+Note next month's project will add an unconventional OLED time display, it might surprise you.
