@@ -1,0 +1,10 @@
+This is the software, for the Magic Mirror a gesture controlled web browser - published 
+in The MagPi No. 44 April 2016
+
+A mirror with a built in program for displaying a pre set number of web pages.
+Navigation is performed by the Pimoroni SkyWriter Hat interface, this is used to move between
+web page tabs and scroll up and down through a page. All the pages can be refreshed with a wheel spin gesture.
+Finally the system can be shut down with a double tap on the sensor board.
+
+A video of this part of the project can be seen at:-
+https://vimeo.com/159712525
