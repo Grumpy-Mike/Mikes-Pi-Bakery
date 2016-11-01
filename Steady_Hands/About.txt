@@ -1,0 +1,8 @@
+From the September 2012 issue of the MagPi magazine
+Steady.py - origional game as printed in the MigPi
+Steady2.py - sound enable game
+
+The game was written before the issue 2 boards were announced. The following two versions are revision aware (Ra) versions that will work on any version of the board.
+
+SteadyRa.py - simple text only version
+Steady2Ra.py - sound enabled version
