@@ -1,0 +1,128 @@
+Acoustic Grand Piano
+Bright Acoustic Piano
+Electric Grand Piano
+Honky-tonk Piano
+Electric Piano 1
+Electric Piano
+Harpsichord
+Clavi
+Celesta
+Glockenspiel
+Music Box
+Vibraphone
+Marimba
+Xylophone
+Tubular Bells
+Dulcimer
+Drawbar Organ
+Percussive Organ
+Rock Organ
+Church Organ
+Reed Organ
+Accordion
+Harmonica
+Tango Accordion
+Acoustic Guitar (nylon)
+Acoustic Guitar (steel)
+Electric Guitar (jazz)
+Electric Guitar (clean)
+Electric Guitar (muted)
+Overdriven Guitar
+Distortion Guitar
+Guitar Harmonics
+Acoustic Bass
+Electric Bass (finger)
+Electric Bass (pick)
+Fretless Bass
+Slap Bass 1
+Slap Bass
+Synth Bass 1
+Synth Bass
+Violin
+Viola
+Cello
+Contrabass
+Tremolo Strings
+Pizzicato Strings
+Orchestral Harp
+Timpani
+String Ensembles 1
+String Ensembles
+Synth Strings 1
+Synth Strings
+Choir Aahs
+Voice Oohs
+Synth Voice
+Orchestra Hit
+Trumpet
+Trombone
+Tuba
+Muted Trumpet
+French Horn
+Brass Section
+Synth Brass 1
+Synth Brass
+Soprano Sax
+Alto Sax
+Tenor Sax
+Baritone Sax
+Oboe
+English Horn
+Bassoon
+Clarinet
+Piccolo
+Flute
+Recorder
+Pan Flute
+Blown Bottle
+Shakuhachi
+Whistle
+Ocarina
+Square Lead (Lead 1)
+Saw Lead (Lead)
+Calliope Lead (Lead)
+Chiff Lead (Lead)
+Charang Lead (Lead)
+Voice Lead (Lead)
+Fifths Lead (Lead)
+Bass + Lead (Lead)
+New Age (Pad 1)
+Warm Pad (Pad)
+Polysynth (Pad)
+Choir (Pad)
+Bowed (Pad)
+Metallic (Pad)
+Halo (Pad)
+Sweep (Pad)
+Rain (FX 1)
+Sound Track (FX)
+Crystal (FX)
+Atmosphere (FX)
+Brightness (FX)
+Goblins (FX)
+Echoes (FX)
+Sci-fi (FX)
+Sitar
+Banjo
+Shamisen
+Koto
+Kalimba
+Bag Pipe
+Fiddle
+Shanai
+Tinkle Bell
+Agogo
+Pitched Percussion
+Woodblock
+Taiko Drum
+Melodic Tom
+Synth Drum
+Reverse Cymbal
+Guitar Fret Noise
+Breath Noise
+Seashore
+Bird Tweet
+Telephone Ring
+Helicopter
+Applause
+Gunshot
