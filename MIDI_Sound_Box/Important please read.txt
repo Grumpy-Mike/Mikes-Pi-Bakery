@@ -1,0 +1,2 @@
+
+In extended testing it has been found that sometimes the Feather Wing board stops working. It has been found that this is due to a pin on the Feather Wing board not being connected. This is the XDCS pin brought out to pin number 17, the fix is simple, wire this pin to a 100K resistor and connect the other end of the resistor to the 3V3 power rail. The schematic here shows that fix.
