@@ -1,0 +1,44 @@
+From https://thebrickinthesky.wordpress.com/2013/03/17/l-systems-and-penrose-p3-in-inkscape/
+
+Other fractal
+Axiom:
+  W
+Rules:
+  W=+++X--F--ZFX+;
+  X=---W++F++YFW-;
+  Y=+ZFX--F--Z+++;
+  Z=-YFW++F++Y---;
+Angle: 30
+
+
+Penrose P3
+Axiom: 
+  [N]++[N]++[N]++[N]++[N]
+Rules:
+  M=OA++pA----NA[-OA----MA]++;
+  N=+OA--PA[---MA--NA]+;
+  O=-MA++NA[+++OA++PA]-;
+  P=--OA++++MA[+PA++++NA]--NA;
+  A=
+Angle:36
+
+Dragon Curve
+Axiom:
+  FX
+Rules:
+  X=X+YF;
+  Y=FX-Y;
+Angle: 90
+
+Koch Island.
+
+Axiom:
+  -F--F--F
+Rules:
+  F=F+F--F+F;
+Angle: 60
+
+Bush
+Axiom: ++F
+Rules:
+    F=FF-[-F+F+F]+[+F-F-F]

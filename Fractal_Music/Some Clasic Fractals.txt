@@ -1,0 +1,31 @@
+axiom = "F+F+F+F" # Slerpinsky curve
+rules = [("F->","FF+F+F+F+FF"),("+->","+") ] 
+
+axiom = "F" # Koch Snowflake
+rules = [("F->","F-F++F-F")] 
+
+axiom = "X" # Peano Curve
+rules = [("X->","XFYFX+F+YFXFY-FXFYFX"),
+         ("Y->","YFXFY-F-XFYFX+F+YFXFY"),("F->","F")]
+
+axiom = "X" # Dragon Curve
+rules = [("X->","X+YF"),("Y->","-FX-Y"),("F->","F")]
+
+axiom = "FXF--FF--FF" # Sierplnisky Gasket
+rules = [("F->","FXF"),("X->","--FXF++FXF++FXF--")]
+
+axiom = "F" # water weed
+rules = [("F->","F[+]FF[-F]F"),("[->","["),("]->","]")]
+
+axiom = "G" # water weed 2
+rules = [("X->","X[-FFF][+FFF]FX"),("G->","GFX[+G][-G]"),("F->","F"),
+         ("[->","["),("]->","]")]
+
+axiom = "F" # Bush
+rules = [("F->","FF+[+F-F-F]-[F+F+F]"),("[->","["),("]->","]")]
+
+axiom = "SLFFF" # Hairy Bush
+rules = [("F->","F"),("L->","[-FFF][+FFF]F"),("T->","TL"),
+         ("H->","-G[+H]L"),("G->","+H[-G]L"),("S->","[+++G][---G]TS"),
+         ("[->","["),("]->","]")]
+
