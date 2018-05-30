@@ -1,0 +1,25 @@
+#N canvas 591 102 572 459 10;
+#X obj 288 57 vsl 15 128 0 1023 0 0 empty empty empty 0 -9 0 10 -261234
+-1 -1 9300 1;
+#X obj 423 57 vsl 15 128 0 1023 0 0 empty empty empty 0 -9 0 10 -203904
+-1 -1 11100 1;
+#X obj 272 280 pack 0 5;
+#X obj 272 311 line~;
+#X obj 232 332 *~;
+#X obj 232 363 dac~;
+#X text 81 223 Create a sound;
+#X obj 173 250 osc~ 1000;
+#X floatatom 201 215 5 0 0 0 - - -, f 5;
+#X obj 272 249 / 1024;
+#X text 321 133 Drag levels;
+#X text 403 33 Volume;
+#X text 275 32 Pitch;
+#X connect 0 0 8 0;
+#X connect 1 0 9 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 1;
+#X connect 4 0 5 0;
+#X connect 4 0 5 1;
+#X connect 7 0 4 0;
+#X connect 8 0 7 0;
+#X connect 9 0 2 0;

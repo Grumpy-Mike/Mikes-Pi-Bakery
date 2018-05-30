@@ -1,0 +1,8 @@
+This is the software, for the Magnetic Bounce Theremin - published 
+in The MagPi No. 70 June 2018
+
+Using two stacks of repelling ring magnets, the position of each stack is sensed by a hall effect sensor. The movement is used to drive a Theremin instrument constructed in PD ( Pure Data ). Several different PD instruments are here.
+
+Video of project at https://youtu.be/3UH84hD5sBU 
+
+

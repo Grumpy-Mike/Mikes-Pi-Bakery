@@ -1,0 +1,119 @@
+#N canvas 528 69 680 582 10;
+#X obj 379 10 tgl 15 0 empty empty empty 17 7 0 10 -262144 -159808
+-1 1 1;
+#X msg 427 36 setup_wiringPi;
+#X obj 487 235 vsl 15 128 0 1023 0 0 empty empty empty 0 -9 0 10 -204786
+-1 -1 4432 1;
+#X obj 553 236 vsl 15 128 0 1023 0 0 empty empty empty 0 -9 0 10 -261234
+-1 -1 3724 1;
+#X obj 354 35 metro 5;
+#X obj 305 68 wiringPi_mcp3008 0 4;
+#X obj 332 99 unpack f f;
+#X obj 596 292 pack 0 5;
+#X obj 595 365 line~;
+#X obj 346 422 *~;
+#X obj 336 460 dac~;
+#X floatatom 422 217 5 0 0 0 - - -, f 5;
+#X obj 595 225 / 1024;
+#X obj 404 245 osc~ 1000;
+#X floatatom 344 217 5 0 0 0 - - -, f 5;
+#X obj 326 245 osc~ 1000;
+#X floatatom 266 216 5 0 0 0 - - -, f 5;
+#X obj 248 244 osc~ 1000;
+#X floatatom 187 216 5 0 0 0 - - -, f 5;
+#X obj 169 244 osc~ 1000;
+#X floatatom 108 216 5 0 0 0 - - -, f 5;
+#X obj 90 244 osc~ 1000;
+#X floatatom 32 216 5 0 0 0 - - -, f 5;
+#X obj 14 244 osc~ 1000;
+#X obj 117 191 * 5;
+#X obj 351 191 * 2;
+#X obj 266 192 * 3;
+#X obj 188 191 * 4;
+#X obj 43 187 * 6;
+#X obj 11 276 *~ 0.1;
+#X obj 59 310 +~;
+#X obj 213 312 +~;
+#X obj 369 309 +~;
+#X obj 133 351 +~;
+#X obj 300 378 +~;
+#X text 20 108 Create a sound to 6th harmonic;
+#X obj 83 450 metro 100;
+#X obj 83 416 tgl 15 0 empty empty empty 17 7 0 10 -262144 -159808
+-1 1 1;
+#X obj 201 494 tabwrite~ waveform;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array waveform 100 float 3;
+#A 0 -0.214635 -0.209806 -0.201961 -0.191463 -0.1789 -0.165031 -0.15073
+-0.136901 -0.124405 -0.113985 -0.106197 -0.101361 -0.0995317 -0.100488
+-0.103759 -0.10866 -0.114359 -0.119942 -0.124496 -0.12719 -0.127343
+-0.124487 -0.1184 -0.109126 -0.096962 -0.0824285 -0.0662194 -0.0491346
+-0.0320078 -0.0156274 -0.000664811 0.0123797 0.0232227 0.031816 0.038343
+0.0431962 0.0469305 0.0502022 0.0537011 0.0580786 0.0638789 0.0714835
+0.0810688 0.0925861 0.105764 0.120136 0.135081 0.149886 0.16381 0.176164
+0.18637 0.194033 0.198971 0.20124 0.201132 0.199151 0.195957 0.192322
+0.189046 0.186873 0.186427 0.18814 0.1922 0.198538 0.206816 0.216445
+0.226634 0.236456 0.24492 0.251063 0.254032 0.253158 0.248015 0.238465
+0.224668 0.207081 0.186416 0.163586 0.139626 0.115617 0.0925892 0.0714492
+0.0529042 0.037409 0.025138 0.0159807 0.0095598 0.00527979 0.00238485
+3.49421e-05 -0.00261374 -0.00632796 -0.0117273 -0.0192303 -0.0290181
+-0.0410214 -0.0549348 -0.0702485 -0.0862988 -0.102341;
+#X coords 0 1 100 -1 200 140 1;
+#X restore 421 432 graph;
+#X text 107 414 Show Waveform;
+#X obj 245 276 *~ 0.01;
+#X obj 87 277 *~ 0.01;
+#X obj 323 277 *~ 0.1;
+#X obj 166 276 *~ 0.06;
+#X obj 401 277 *~ 0.7;
+#X text 425 295 Amount;
+#X text 400 309 of harmonic;
+#X connect 0 0 4 0;
+#X connect 1 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
+#X connect 6 0 11 0;
+#X connect 6 0 25 0;
+#X connect 6 0 26 0;
+#X connect 6 0 27 0;
+#X connect 6 0 24 0;
+#X connect 6 0 28 0;
+#X connect 6 1 3 0;
+#X connect 6 1 12 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 1;
+#X connect 9 0 10 0;
+#X connect 9 0 10 1;
+#X connect 9 0 38 0;
+#X connect 11 0 13 0;
+#X connect 12 0 7 0;
+#X connect 13 0 45 0;
+#X connect 14 0 15 0;
+#X connect 15 0 43 0;
+#X connect 16 0 17 0;
+#X connect 17 0 41 0;
+#X connect 18 0 19 0;
+#X connect 19 0 44 0;
+#X connect 20 0 21 0;
+#X connect 21 0 42 0;
+#X connect 22 0 23 0;
+#X connect 23 0 29 0;
+#X connect 24 0 20 0;
+#X connect 25 0 14 0;
+#X connect 26 0 16 0;
+#X connect 27 0 18 0;
+#X connect 28 0 22 0;
+#X connect 29 0 30 0;
+#X connect 30 0 33 0;
+#X connect 31 0 33 1;
+#X connect 32 0 34 1;
+#X connect 33 0 34 0;
+#X connect 34 0 9 0;
+#X connect 36 0 38 0;
+#X connect 37 0 36 0;
+#X connect 41 0 31 1;
+#X connect 42 0 30 1;
+#X connect 43 0 32 0;
+#X connect 44 0 31 0;
+#X connect 45 0 32 1;

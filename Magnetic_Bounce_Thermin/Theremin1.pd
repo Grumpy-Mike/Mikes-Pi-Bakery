@@ -1,0 +1,34 @@
+#N canvas 521 105 572 459 10;
+#X obj 358 27 tgl 15 0 empty empty empty 17 7 0 10 -262144 -159808
+-1 1 1;
+#X msg 415 111 setup_wiringPi;
+#X obj 364 248 vsl 15 128 0 1023 0 0 empty empty empty 0 -9 0 10 -261234
+-1 -1 7076 1;
+#X obj 431 246 vsl 15 128 0 1023 0 0 empty empty empty 0 -9 0 10 -203904
+-1 -1 3377 1;
+#X obj 364 64 metro 5;
+#X obj 364 164 wiringPi_mcp3008 0 4;
+#X obj 364 192 unpack f f;
+#X obj 221 322 pack 0 5;
+#X obj 221 353 line~;
+#X obj 181 374 *~;
+#X obj 181 405 dac~;
+#X text 24 206 Create a sound;
+#X obj 107 267 osc~ 1000;
+#X floatatom 140 234 5 0 0 0 - - -, f 5;
+#X obj 221 291 / 1024;
+#X connect 0 0 4 0;
+#X connect 1 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
+#X connect 6 0 13 0;
+#X connect 6 1 3 0;
+#X connect 6 1 14 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 1;
+#X connect 9 0 10 0;
+#X connect 9 0 10 1;
+#X connect 12 0 9 0;
+#X connect 13 0 12 0;
+#X connect 14 0 7 0;
