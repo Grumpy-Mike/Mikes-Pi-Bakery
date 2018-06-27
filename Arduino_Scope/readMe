@@ -1,0 +1,8 @@
+This is the software, for the Arduino Oscilloscope - published 
+in The MagPi No. 71 July 2018
+
+Using an Arduino Nano (Uno, Mega or other 16MHz Arduinos will do) as a rapid voltage sample gatherer, and Python software for display and measurement. It will measure voltages between +/- 2.5V AC or  +/- 25V AC or with a standard oscilloscope X10 probe. With a 58KHz sample rate.   
+
+Video of project at https://youtu.be/aDV0zrvJs-o
+
+
