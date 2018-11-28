@@ -1,0 +1,63 @@
+In a Spin Full Parts list
+
+1 off VGA socket
+https://uk.rs-online.com/web/p/solder-d-sub-connectors/6740947/
+
+1 off P8X32A Processor
+https://uk.rs-online.com/web/p/microcontrollers/0405597/
+
+Resistors:-
+4 off 470R 0.125W
+https://uk.farnell.com/multicomp/mf12-470r/res-470r-1-125mw-axial-metal-film/dp/9343245
+5 off 240R 0.125W
+https://uk.farnell.com/multicomp/mf12-240r/res-240r-1-125mw-axial-metal-film/dp/9342885
+6 off 10K 0.25W
+https://uk.farnell.com/multicomp/mcf-0-25w-10k/res-10k-5-250mw-axial-carbon-film/dp/9339060
+
+1 off 5MHz Crystal
+https://uk.farnell.com/citizen-finetech-miyota/hc49us5-000mabj-ub/crystal-frequency-5mhz/dp/1652566
+
+4 off 0.1uF ceramic capacitor
+https://uk.farnell.com/multicomp/mcfyu6104z6/cap-0-1-f-50v-y5v/dp/9411887
+
+1 off 24LC245 EEPROM
+https://uk.farnell.com/microchip/24lc256-i-p/serial-eeprom-256kbit-400khz-dip/dp/9757970?st=24LC256
+
+1 off 40 Pin IC socket
+https://uk.farnell.com/multicomp/2227-40-06-05/socket-ic-40way-pc-board-dil/dp/4285669
+
+1 off 8 pin IC socket
+https://uk.farnell.com/multicomp/spc15494/dip-socket-8pos-2row-2-54mm-th/dp/2668408
+
+1 off BC237BG NPN transistor
+https://uk.farnell.com/multicomp/bc237b/transistor-npn-to-92/dp/1574377?rpsku=rel3%3ABC237BG&st=BC237BG
+
+2 off 10nF Capacitor
+https://uk.farnell.com/wima/fkp2c021001g00hssd/cap-0-01-f-63v-3-pp-through-hole/dp/1890175?st=capacitor%2010nF
+
+1 off Reset push button
+https://uk.rs-online.com/web/p/products/6866853/?grossPrice=Y&cm_mmc=UK-PLA-DS3A
+
+1 off 220uF 25V
+https://uk.rs-online.com/web/p/aluminium-capacitors/7111097/
+
+2 off 22uF 16V
+https://uk.rs-online.com/web/p/aluminium-capacitors/7047810/
+
+2 off 10K skeleton pot
+https://uk.farnell.com/mcm/28-493/potentiometer-mounting-through/dp/2784361
+
+1 off Audio Jack socket
+https://uk.farnell.com/pro-signal/mj-352w-0/connector-receptacle-3-5mm-phono/dp/1267400
+
+1 off Red LED
+https://uk.farnell.com/multicomp/703-0090/led-3mm-red-100mcd-643nm/dp/2112100
+
+1 off FT232RL FTDI USB to TTL Serial Adapter 3.3V 5.5V 
+https://www.amazon.co.uk/gp/product/B01N9RZK6I/
+
+1 off Strip board
+https://www.rapidonline.com/rapid-stripboard-95-x-127mm-34-0515
+
+1 off Raspberry Pi 8 pin GPIO connector
+https://uk.farnell.com/multicomp/2214s-08sg-85/socket-pcb-2-row-vert-8way/dp/1593489
