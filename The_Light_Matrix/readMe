@@ -6,5 +6,4 @@ To start with here is a full parts list for the whole project.
 
 For part 3 the Matrix_test.py file is a simple program that will allow you to test for wiring errors by lighting each LED in turn. A video of The Matrix showing random lights is at https://youtu.be/IMhVEuYQYOU 
 
-
-
+For part 4 the max7219bang.py is the driving library with various simple demos and a lights out game. See the magazine for details.
