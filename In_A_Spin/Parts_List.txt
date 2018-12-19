@@ -17,7 +17,7 @@ https://uk.farnell.com/multicomp/mcf-0-25w-10k/res-10k-5-250mw-axial-carbon-film
 1 off 5MHz Crystal
 https://uk.farnell.com/citizen-finetech-miyota/hc49us5-000mabj-ub/crystal-frequency-5mhz/dp/1652566
 
-4 off 0.1uF ceramic capacitor
+5 off 0.1uF ceramic capacitor
 https://uk.farnell.com/multicomp/mcfyu6104z6/cap-0-1-f-50v-y5v/dp/9411887
 
 1 off 24LC245 EEPROM
