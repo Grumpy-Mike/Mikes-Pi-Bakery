@@ -1,0 +1,39 @@
+Installing for python 3
+first install some dependances
+from a terminal window
+
+sudo apt-get install python3-pip
+sudo pip3 install pexpect
+sudo pip3 install pygatt
+sudo pip3 install bluepy
+
+Now install the libiary
+sudo pip install https://github.com/undera/pylgbst/archive/0.10.tar.gz
+
+fixing the colour commands
+sudo nano /usr/local/lib/python3.5/dist-packages/pylgbst/constants.py
+
+scroll down until you see:-
+COLOR_ORANGE = 0x09
+and change it to
+COLOR_ORANGE = 0x08
+then ctrl X and answer y to save
+
+downloading documents & examples
+Go to a web browser visit page https://github.com/undera/pylgbst
+and down load the ZIP file
+then go to the download directory and unzip it
+then use the file manager to move the README file and the examples directory to where you want to work.
+
+if you ruun the demo example it will fail with
+line 17, in demo_led_colors
+    for color in COLORS.keys()[1:] + [COLOR_BLACK]:
+TypeError: 'dict_keys' object is not subscriptable
+
+If you try any of the other examples like Verni you get error messages
+
+from . import *
+SystemError: Parent module '' not loaded, cannot perform relative import
+
+
+
