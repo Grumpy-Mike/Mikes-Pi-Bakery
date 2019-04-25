@@ -1,0 +1,29 @@
+Studio - 3D LEGO CAD
+Download from:-
+https://studio.bricklink.com/v2/build/studio.page
+
+The documentation for Studio 2.0 is not complete, but we found that user groups like the forum on LDraw.org could fill in any gaps.
+
+You need to add alternate parts to get the Boost Hub and some others.
+Go to page
+http://www.ldraw.org/library/tracker/
+and click on the "Download All Unofficial Files" to download a large file of parts.
+
+Unzip the file to find two folders called "p" and "parts"
+
+Add the contents of these files to what is already in the folders in the "Custom Parts" folder.
+Do this by opening up the "Custom Parts" folder on your machine
+
+On Windows the path is:
+.\Program Files\Studio 2.0 Beta\ldraw\Custom Parts\ (the space is required in the Custom Parts folder)
+
+On Mac it is 
+/applications/Studio 2.0 Beta/ldraw/Custom Parts/ (the space is required in the Custom Parts folder)
+
+Then open the "p" folder. Open the "p" folder from the file you have just downloaded and select all files. Drag this selection into the "p" folder in the Studio path. When asked what to do with duplicates click "skip" and the apply for all box.
+
+Repeat this for the "parts" folder, there are a lot more files in this one. Choose the select all from the file menu.
+
+If Studio is running then restart it. You can now access these parts by clicking on the down pointing triangle next to "Master" on the parts select bar just under the main view, and select "Custom Parts". Type in "move hub" in the parts finder line and it should be the first one in the list.
+
+One problem we found was in finding the right part. The data base has mainly a verbal description of the part but if you are just faced with the part number like we were making these models how do you convert this into some form of words the software can understand. The answer was to Google (other search engines are available) the word LEGO followed by the part number and there will be lots of hits with that part number and a description. It is this description or a shortened version that will bring up the part you want. You will soon begin to get the feel of what they are called. For example before we started this project we had no idea of the difference between a brick, a plate and a tile.
