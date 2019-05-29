@@ -2,7 +2,7 @@ Part 1 - Taking control with Python  :- https://youtu.be/abkJHlixoVc
 
 Part 2 - Simon says :- https://youtu.be/Jvg89CEvbsY
 
-Part 3 - To be published in June 2019 
+Part 3 - Si-clops MIDI sequence generator:- https://youtu.be/NbJg6wO-_aI
 
 NOTE
 LEGO®is a trademark of the LEGO Group of companies which does not sponsor, authorise or endorse these videos.
