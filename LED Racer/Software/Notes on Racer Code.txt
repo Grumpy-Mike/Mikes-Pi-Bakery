@@ -1,0 +1,44 @@
+Notes on LED racer code.
+
+Installing neopixel driver on Raspberry Pi
+https://raspberrypi.stackexchange.com/questions/94723/adafruit-neopixel-library-slows-down-code
+
+Main Tutorial follow step 4:-
+https://thepihut.com/blogs/raspberry-pi-tutorials/using-neopixels-with-the-raspberry-pi
+
+sends you off to do stuff on the :-
+https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+page.
+
+You need to do the apt-get upgrade as well as the other stuff.
+
+This finally needed doing again
+sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
+
+-------------------------------------
+Running the program without any LEDs
+
+comment out the following lines:-
+import board, neopixel
+initLEDs() 
+
+-------------------------------------
+Variables used in led_racer.py
+path [i] - list that converts the position on the circuit given by i to the LED number of that position
+led_pointX[i], led_pointY[i] - list that gives the screen coordinates of each LED number i
+speedChange[i] - the change given to your speed for each LED i - used for the bridge to make it harder to go up and easier to 				come down
+position[i] - the position on the track for each car i equals 0 or 1
+lastPos[i]  - the last position on the track for each car i equals 0 or 1
+speed[i]    - the speed of each car i equals 0 or 1
+
+Extra variables used in led_racer2.py
+speedLimit[i] - the maximum speed of a car on the LED number given by the variable i - note this is 100 times less than the speed 		displayed on the screen.
+speedRec  - rectangle with a transparency to draw over LED positions with a speed limit on the screen
+spinOffTime[i] = time.time() + 2.5 # 2.5 time penalty - change this for a longer or shorter penalty
+
+-------------------------------------
+Notes on making your own layout
+
+Any layout that topologically involves a figure of 8 will require both clockwise and anticlockwise curves. You must wire the LEDs round the other way but always have the data input on the stud of the track. Some anticlockwise curves will require you to have the data connectors on the inside of the curve and other on the outside in order keep all the connectors on the outside of the track. Plan this carefully.  
+
+To make your own layout you will need a photograph of it for the screen display. This in turn will require that you make your own list of X - Y coordinates of the screen LED positions. To help you there is the led_locator.py program. Put your photograph in the images directory and call it Layout.jpg. Then run the code and click on each LED position in turn round your track. On each click a pair of numbers will be printed on the Python console. When you have finished copy these points and paste them into a spread sheet and save the spread sheet as a csv file called points.csv, replacing the file you have of the same name.
