@@ -1,0 +1,65 @@
+Adafruit TSL2591 breakout board
+https://shop.pimoroni.com/products/adafruit-tsl2591-high-dynamic-range-digital-light-sensor
+
+3 off 3mm Nylon spacers
+https://uk.farnell.com/harwin/r30-6700394/spacer-nylon-3mm-length/dp/2135895
+
+1 off 12mm hex spacers M3
+https://uk.farnell.com/ettinger/05-03-123/spacer-m3x12-ni/dp/1466772
+
+2 off 25mm hex spacers M3
+https://uk.farnell.com/wurth-elektronik/970240321/standoff-hex-female-female-24mm/dp/2884577
+
+2 off 8mm M3 pan head screws
+https://uk.farnell.com/tr-fastenings/m38-psa2mcs100/screw-slt-pan-s-s-a2-m3x8/dp/1419346
+
+3 off M3 countersunk screws 10mm
+https://uk.farnell.com/tr-fastenings/m310-ksstmcz100/screw-slt-csk-steel-bzp-m3x10/dp/1419373
+
+3mm birch plywood wood
+https://www.kitronik.co.uk/3244-3mm-birch-laser-plywood-600mm-x-300mm-sheet.html
+
+Black Foam Board
+https://www.hobbycraft.co.uk/west-design-black-foam-board-a2/574236-1000
+
+Plastikote Flat black B2 paint
+https://www.tradingdepot.co.uk/plasti-kote-fast-dry-enamel-paint-paint-b2-bottle-black-matt-59ml-pktb2w
+
+0.1" pitch strip board
+https://www.kitronik.co.uk/2439-strip-board-100-x-250mm.html
+
+Right angle header - optional could just solder wires onto board
+http://uk.farnell.com/harwin/m20-9963645/header-1row-36way/dp/1022224
+
+8 way crimp housing
+https://www.ebay.co.uk/itm/DuPont-Single-Row-2-54mm-Connector-Housing-Female-Crimps-1-10-12-20-Pin/232414804730
+
+2 off 4 way crimp housing - glue back to back for raspberry Pi end.
+https://www.ebay.co.uk/itm/DuPont-Single-Row-2-54mm-Connector-Housing-Female-Crimps-1-10-12-20-Pin/232414804730
+
+Ribbon cable
+https://www.ebay.co.uk/itm/10-14-16-20-26-34-40-Way-Multi-Coloured-Flat-Ribbon-Cable-Wire-28AWG/282081620987
+
+2.54mm 0.1" PCB Header Vertical Socket 6 way
+https://www.ebay.co.uk/itm/2-54mm-0-1-PCB-Header-Vertical-Socket-Single-Double-Row/254025581904
+
+1 off OVL-5521 LED, White, Through Hole
+https://uk.farnell.com/multicomp/ovl-5521/led-5mm-mega-bright-white/dp/1716702
+
+2N4401 Transistor NPN
+https://www.rapidonline.com/cdil-2n4401-transistor-npn-to92-40v-81-0487
+
+1 off 51R resistor
+https://uk.farnell.com/multicomp/mf25-51r/res-51r-1-250mw-axial-metal-film/dp/9342044
+
+1 off 1K resistor
+https://uk.farnell.com/multicomp/mcf-0-25w-1k/res-1k-5-250mw-axial-carbon-film/dp/9339051
+
+1 off 4K7 resistor
+https://uk.farnell.com/multicomp/mcf-0-25w-4k7/res-4k7-5-250mw-axial-carbon-film/dp/9339540
+
+Samples Glow in the dark - many online typical link is:-
+https://www.glow.co.uk/1000-glow-in-the-dark-stars.html
+
+
+
