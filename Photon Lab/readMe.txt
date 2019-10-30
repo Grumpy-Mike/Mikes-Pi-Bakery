@@ -2,10 +2,3 @@ This contains information and downloads for the Photon Lab. Measure low light le
 in The MagPi No. 86 October 2019.
 
 Project Video at:- https://youtu.be/pU6IPWEJm2w
-
-
-
-
-
-
-
