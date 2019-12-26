@@ -1,0 +1,10 @@
+#, GraviTrax Script example
+now, sound 0
+now, ws 7
+when 24, rises, delay 0.2, sound 4
+when 24, falls, delay 1.5, sound 1
+when 4, falls, delay 0.0, fl 6
+when 4, rises, delay 0.0, ws 4
+when 24, falls, delay 0.0, ws 7
+now, fl 4
+
