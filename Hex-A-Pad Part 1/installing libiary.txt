@@ -1,0 +1,12 @@
+sudo apt-get update
+
+sudo pip3 install --upgrade setuptools
+sudo pip3 install adafruit-blinka
+
+
+sudo pip3 install adafruit-circuitpython-mpr121
+
+This command fails - works on newest OS
+
+A simpler library but not compatible with our code
+https://www.mbtechworks.com/files/cap-touch.py

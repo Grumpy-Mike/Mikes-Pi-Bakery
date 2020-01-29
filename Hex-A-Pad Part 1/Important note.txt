@@ -1,0 +1,5 @@
+Important Note.
+
+We have found for long term reliability to add conducting ink to all the screw connections to the brass touch plates, even if they at first seem to have a good connection with a meter.
+
+We used an old tub of conducting ink that has almost dried and put a small lump in the hole before screwing the bolt through.
