@@ -1,0 +1,22 @@
+cardioid
+R  = 1 - cos(th)          r - r*maths.cos(th)
+or
+R = 1 + sin(th)           r - r*maths.sin(th)
+
+R = 2 + 4Cos(th)          2*r + 4*r*maths.Cos(th)
+
+R = 1 + 0.1Sin(10*th)     r + 0.1*r * maths.sin(10*th)
+
+R = sin(th/2)             r*maths.sin(cTh + th/2)
+
+R = sin(th/4)             r*maths.sin(cTh + th/4)
+
+R = sin(th) + sin3(5th/2)   r*maths.sin(th) + r*maths.sin(5*th /2)**3
+
+R = th. sin(th)            r*th*maths.sin(th)
+
+R = 1 + 4Cos(5th)          r + r*4.maths.cos(5*(th + cTh))
+
+R = 1/root(th)             r / maths.sqrt(th + cTh)
+
+
