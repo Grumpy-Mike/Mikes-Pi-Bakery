@@ -1,0 +1,61 @@
+Notes on converting C functions into Python for Glitch Music
+
+While many C operations are identical in Python two will cause problems these are Turnery operations and the modulus function.
+
+Turnery
+In C a Turnery operation is a short form of a simple if .... then ..... else structure.
+They look odd, for example a simple operation is
+
+result = (a > b) ? a : b;
+
+and can be explained as:-
+
+result = binaryCondition ? valueReturnedIfTrue : valueReturnedIfFalse;
+
+In Python they have a rather different syntax
+
+result = a if (a > b) else b
+
+which is explained as
+
+result = true_val if condition else false_val
+
+The algorithm for converting C into Python is
+Replace ? with if, replace : with else and swap the two expressions either side of the if.
+The result will be exactly the same.
+
+
+Modulus
+The modulus operation is a divide operation that just returns the remainder of the division, its symbol in both Python and C are the same the percentage sign %. However, they don't produce the same result in the two different languages.
+This returns the same result (one) in both languages:-
+26 % 5
+But the problem occurs in Python when the numbers are negative.
+
+    -5 % 3 = (1 -2*3) % 3 = 1
+    5 % -3 = (-1 * -2*-3) % 3 = -1
+    -10 % 3 = (2 -4*3) % 3 = 2
+Python modulo operator always return the remainder having the same sign as the divisor.
+This can be solved by using the fmod function from the import math library.
+
+    fmod(-5, 3) = fmod(-2 -1*3, 3) = -2.0
+    fmod(5, -3) = fmod(2 -1*-3, -3) = 2.0
+    fmod(-10, 3) = fmod(-1 -3*3, 3) = -1.0
+
+However there is a problem when it comes to dividing by zero
+Both Python and C will throw up an error message
+26 % 0
+In the case of C it is in the compile stage, but when these numbers are defined by variables the compiler can't tell what value they will be at run time, so
+a = 26
+b = 0
+result = a % b
+will get past the compiler.
+In Python this will rase an exception ZeroDivisionError
+and crash the program, or at least spoil the result for the Glitch expression.
+In C this will simply return the value a, in effect converting the variable b from zero to one.
+
+Therefore this function can not be relied upon to always work in Glitch expression.
+The solution is to look at the divisor and make sure it can never evaluate out to zero. You can do this by either placing limits on the values that can be returned by the controlling knobs so a divisor can never evaluate to zero, or by adding some constant to the divisor expression so it doesn't evaluate to zero.
+Either way the results are never going to be the same with the modulus operation in Python and C.
+
+    
+

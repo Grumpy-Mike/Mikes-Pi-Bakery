@@ -1,0 +1,43 @@
+Original blog post by Viznut who called it Bytebeat music. Simple formula no used interaction.
+Viznut a.k.a. Ville-Matias Heikkilä
+
+http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html
+Further work
+http://countercomplex.blogspot.com/2011/10/some-deep-analysis-of-one-line-music.html
+
+List of formulas
+https://pastebin.com/izCsXGvK
+
+Online player
+http://wurstcaptures.untergrund.net/music/?oneliner=(%20%20((t*4)*(((t%3E%3E%3E11)%261)%3F1%3A0)*(((t%3E%3E%3E11)%268)%3F0%3A1)%20%2B%20(t*2)*(((t%3E%3E%3E10)%261)%3F1%3A0)*(((t%3E%3E%3E10)%26128)%3F0%3A1)%20%2B(t*4)*(((t%3E%3E%3E10)%261)%3F1%3A0)*(((t%3E%3E%3E10)%26128)%3F1%3A0)%20%2B%20(t*sin(t)*(((t%3E%3E%3E10)%264)%3F1%3A0)*(((t%3E%3E%3E10)%261)%3F1%3A0)))%20%25%20256)%20*%20(7%2F10)&rate=11025 
+
+Another online player
+http://entropedia.co.uk/generative_music/
+
+Where it started for me
+https://www.element14.com/community/people/cypresstwist/blog/2020/01/05/glitch-storm-midi-synth-and-applications-in-child-psychology
+
+Software and other files of my Arduino version
+https://github.com/Grumpy-Mike/GlitchStorm
+
+Video of my Arduino hardware unit
+https://youtu.be/A6AD-EArwGI
+
+**********************************
+
+Other links on generative music.
+
+Rule based music:-
+https://www.youtube.com/watch?v=3Z8CuAC_-bg&list=RDtCRPUv8V22o&index=3
+
+Web based explorer for one line music
+http://wurstcaptures.untergrund.net/music/
+
+Smooth life - using floating point numbers
+https://www.youtube.com/watch?v=KJe9H6qS82I&list=RDtCRPUv8V22o&index=4
+
+Fractal music
+https://www.youtube.com/watch?v=6VZq7EurckI&list=RDtCRPUv8V22o&index=17
+
+Computer generated Jazz
+https://www.youtube.com/watch?v=Cbb08ifTzUk&list=RDtCRPUv8V22o&index=18
