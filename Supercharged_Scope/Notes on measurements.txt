@@ -1,0 +1,18 @@
+Notes on measurements
+
+When connecting the Oscilloscope to some items like a signal generator you might find the display blanks out and perhaps even the Raspberry Pi reboots. This is to be expected and can happen when you take measurements from the Raspberry Pi on commercial Oscilloscopes. This is caused by the ground on the Raspberry Pi floating with respect to real ground or Earth as it is called in the UK. This is a connection into the ground (dirt) outside your house which can be done through a copper rod driven into the ground or sometimes through gas pipes.
+ 
+The floating ground on a Pi system is the result of powering the Pi and the monitor from doubly isolated power supplies, the ground leakage from these supplies makes the ground of the Pi float in respect to the read Earth. In normal operation this is not a problem.
+
+However, when you connect something that itself has its ground connected to the Earth, like all oscilloscopes and mains powered signal generators, current flows into the Earth from the floating ground. We have found that this current is sufficient to disturb the signal into the monitor so it goes blank for a second, or even on some occasions to trip the Raspberries Pi's reset circuits. To prevent this from happening the Raspberry Pi's ground must be connected to Earth permanently either through connecting it to such an instrument before switching on the Raspberry Pi, or by connecting a ground pin from the Raspberry Pi or monitor to the Earth from a Mains plug.
+
+Warning - do not make measurements of the mains on this or any other oscilloscope.
+This is because all oscilloscopes have their common, or ground connected to Earth, so taking measurements with the common connected to the mains will result in a short circuit followed by a big bang and possibly fire.
+See this video for demonstration of what can happen.
+https://www.youtube.com/watch?v=xaELqAo4kkQ
+How to measure mains is explained here:- https://www.youtube.com/watch?v=a3ePild_sFs if there is anything you don't understand fully, then don't do it. If your mains is at 240V, that is only the RMS value, the peak value is 1.414 times this so about 340V and as this is AC the peak to peak voltage you will get is 680V. This is why mains can be so dangerous.
+
+To use this project to measure time and voltage then use this method:-
+The oscilloscope samples at 1MHz which in theory means you can measure waveforms at 500KHz. But that only gives you two samples per cycle and as the samples can be anywhere on the waveform they do not look very good. As a rough guide you need at about ten points on a waveform to make it look something like the waveform you are viewing so that gives a top practical frequency of 100KHz. However, by using the Time Magnify options along with the freeze function you can measure much higher frequencies. The time and voltage cursor lines let you find out the values on any point of the waveform, and by clicking the save functions the current cursor is replaced by a dotted line which is fixed, and measurements can be made relative to that. The oscilloscope in action can be seen in Figure 2. Note pressing the S key on the keyboard produces a screen dump of the display.
+
+Note due to the quality of the operational amplifier used waveforms might distort at high amplitude levels. Also square waves will have a display kink on the edges due to the infinite frequency harmonics contained in a square wave.
