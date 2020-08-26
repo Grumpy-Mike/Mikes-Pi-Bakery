@@ -1,0 +1,14 @@
+Installing neopixel driver on Raspberry Pi
+https://raspberrypi.stackexchange.com/questions/94723/adafruit-neopixel-library-slows-down-code
+
+Main Tutorial follow step 4:-
+https://thepihut.com/blogs/raspberry-pi-tutorials/using-neopixels-with-the-raspberry-pi
+
+sends you off to do stuff on the :-
+https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+page.
+
+You need to do the apt-get upgrade as well as the other stuff.
+
+This finally needed doing again
+sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
