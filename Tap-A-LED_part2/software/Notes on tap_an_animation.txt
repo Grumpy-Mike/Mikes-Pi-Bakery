@@ -1,0 +1,13 @@
+IMPORTANT before you run this program:-
+Line 148 in the code defines the initial path name for loading and saving files. Make sure that there is a directory at this path name before running the code. You can either create a directory at this path name, or edit this line to point at a directory you want to use.
+
+When creating a sequence clicking on "Next frame" saves your current frame and adds a new one.
+Continue adding frames until your animation is complete.
+
+When you click on "Next frame" the display will look just the same because the last frame has been copied over to the new one. This is what you want to happen most of the time, if not then click on "Clear frame", if at any time you want to restore the previous frame then click "Copy from last frame" 
+
+When making or editing the final frame in a sequence, when you have finished this frame, then click on "Last frame" to save it without adding an extra frame.
+
+When ever you want to edit a previous stored sequence then never use "Next frame" as this will add a new frame at the current frame position, this is seldom what you want to do. Always use "Last frame" to preserve the sequence length. If you want to extend the sequence length then use "Last frame" to get to the last frame in the animation and then use "Next frame" to add a new frame.
+
+When a sequence is running pressing the - or + keys will alter the playback speed.
