@@ -1,0 +1,16 @@
+This contains information and downloads for Trill part 1
+
+The Trill touch sensors by Bella are shapes that can detect one or more touches. They are easy to use and have an I2C interface. Normally programmed in C, there is now a third party unofficial Python library to support them. 
+
+From the MagPi No. 102 Febuary 2021.
+
+Video at https://youtu.be/rC4N_kG1cpM 
+
+
+
+
+
+
+
+
+

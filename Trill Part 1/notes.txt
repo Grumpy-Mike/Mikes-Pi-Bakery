@@ -1,0 +1,29 @@
+Useful links
+https://learn.bela.io/products/trill/about-trill/
+
+Data sheet for processor
+https://www.cypress.com/file/138731/download
+
+Touch sensor Pad designs (IEEE)- requires sign in
+https://ieeexplore.ieee.org/abstract/document/7026172
+
+I didn't use this but incase you do - Making a wrapper for a C library
+https://medium.com/@shamir.stav_83310/making-your-c-library-callable-from-python-by-wrapping-it-with-cython-b09db35012a3
+
+Documentation for C library
+http://docs.bela.io/classTrill.html 
+
+For other platforms:
+
+- [`Trill-Linux`](https://github.com/BelaPlatform/Trill-Linux) contains the Trill library and examples for Linux systems, such as Raspberry Pi
+
+PD example ( bela )
+https://patchstorage.com/trill-player-3/
+
+Another PD example
+https://forum.bela.io/d/1396-reading-from-a-trill
+
+Customising Trill Craft
+https://learn.bela.io/products/trill/working-with-trill-craft/
+
+
