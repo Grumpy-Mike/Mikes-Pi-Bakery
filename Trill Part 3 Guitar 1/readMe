@@ -1,0 +1,26 @@
+This contains information and downloads for Trill part 3 - Trill Guitar 1
+
+This part describes the hardware needed to make a Pi Pico Trill Guitar and the drawings to cut out the housing.
+
+The project is entirely written in MicroPython.
+The software here allows you to test the three major aspects of the hardware
+1) The trill touch sensors
+2) The OLED display
+3) The MIDI output
+
+It also includes an updated Trill sensor library updated to work with MicroPython
+
+The project uses the stand alone Pico controller to make a touch Guitar.
+
+Video at:-
+https://youtu.be/-22KG11FD_s 
+The video shows various photos of the construction along with a small sneak preview of the whole thing in action. 
+Next month we will see how the software works and how it can be customised.
+
+
+
+
+
+
+
+
