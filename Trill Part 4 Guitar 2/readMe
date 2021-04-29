@@ -1,0 +1,23 @@
+This contains information and downloads for Trill part 4 - Trill Guitar 2
+
+This part describes the hardware needed to make a Pi Pico Trill Guitar and the drawings to cut out the housing.
+
+The project is entirely written in MicroPython.
+The software here allows you to run last month's software as a touch Guitar.
+
+
+It also includes an example of a song configuration file and an example of a typical song 
+in tabular or Tab form with the chord changes above the word or part of a word. 
+
+The project uses the stand alone Pico controller to make a touch Guitar.
+
+Video at:-
+Not yet available update when it is.
+
+
+
+
+
+
+
+
