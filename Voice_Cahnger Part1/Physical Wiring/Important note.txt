@@ -1,0 +1,5 @@
+There were two errors on the original diagram published in the MagPi magazine #106.
+
+1) The 4K7 resistor which starts at Row 12, Hole 29, should go to Row 15, Hole 29.
+
+2) The 4K7 resistor which starts at Row 14, Hole 31, should go to Row 17, Hole 31.
