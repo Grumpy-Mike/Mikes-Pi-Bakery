@@ -1,0 +1,12 @@
+Notes on running.
+The pico-voice.uf2 can simply be dropped into the Pico's boot loader window.
+
+The build directory is empty to save space when storing and transferring.
+
+To compile open up a terminal window and type:-
+
+cd pico-voice/build
+cmake
+make
+
+This assumes that the pico-voice files are at the same directory level as your Pico C SDK install. 
