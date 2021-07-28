@@ -1,0 +1,9 @@
+At the time of writing (25th July 2021 ) there is an error in the AdaFruit MIDI library, in that it will not send correctly a Program Change ( change of voice ) MIDI Message. It actually sends 0x0 as the first byte of the message and not 0xCn, where n is the channel number.
+
+I have raised an issue about this and it has been investigated but still not fixed. It is likely that the error is somewhere else in the overall code and not the MIDI library.
+
+If you require this feature in your project then I would advise you hold fire and wait until / if  it is fixed before starting to make the project.
+
+You can track this by looking at:-
+https://github.com/adafruit/Adafruit_CircuitPython_MIDI/issues/37
+  

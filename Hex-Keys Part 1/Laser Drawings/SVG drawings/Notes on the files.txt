@@ -1,0 +1,5 @@
+The top engrave should be done first then followed by the top cut.
+
+Note that the outline of the top appears in both the engrave and cut drawings. This is so the engraving aligns with the cut. If your software can do both a cut and an engraving then delete the board outline in the engrave layer after import.
+
+If you want to generate Gcode separately for both the top and the engrave, then import then into Inkscape, make sure the two layers align then delete the board outline from the engrave layer. Then just select either the engraving or the cut before you generate the Gcode files for each. 
