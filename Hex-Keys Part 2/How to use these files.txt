@@ -1,0 +1,11 @@
+The Pico running AdaFruit's Circuit Python will show on your computer as a storage device like a USB memory stick.
+
+It will contain initially an empty directory called lib. The image called "Files and Lib.png" on this page shows what files it should contain. These files change according to the current version of circuit python so they should be downloaded from the page https://circuitpython.org/libraries
+
+Copy these onto your computer and then drag the required files, as shown by the "Files and Lib.png" image file into the lib directory in the Pico's storage device window.
+
+Next copy the file rotary_encoder.py from the Final software directory here into the top level of the Pico's storage device window.
+
+Finally copy code.py file into the top level of the Pico's storage device window. This will mean the midi_hex_keys software will run when the Pico is connected to the USB of your computer. The file code.py is simply a copy of the file called midi_hex_keys.py
+
+In the "Development software" directory there are files that just test one aspect of the hardware to allow you to  do some debugging if you find you have a hardware / wiring fault.    
