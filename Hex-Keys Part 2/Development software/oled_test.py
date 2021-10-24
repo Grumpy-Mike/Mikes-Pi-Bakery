@@ -30,7 +30,7 @@ display_bus = displayio.I2CDisplay (i2c, device_address = 0x3C) # The address of
 
 
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
-splash = displayio.Group(max_size=10)
+splash = displayio.Group()
 display.show(splash)
 
 #time.sleep(3.0)
