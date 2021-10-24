@@ -1,4 +1,6 @@
-The Pico running AdaFruit's Circuit Python will show on your computer as a storage device like a USB memory stick.
+The Pico running AdaFruit's Circuit Python 7 will show on your computer as a storage device like a USB memory stick.
+
+Note Circuit Python 6 will not work as it contains an error in that Program Change messages are not handled correctly.
 
 It will contain initially an empty directory called lib. The image called "Files and Lib.png" on this page shows what files it should contain. These files change according to the current version of circuit python so they should be downloaded from the page https://circuitpython.org/libraries
 

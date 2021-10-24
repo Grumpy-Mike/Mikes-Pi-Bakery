@@ -4,6 +4,22 @@ I have raised an issue about this and it has been investigated but still not fix
 
 If you require this feature in your project then I would advise you hold fire and wait until / if  it is fixed before starting to make the project.
 
+
 You can track this by looking at:-
 https://github.com/adafruit/Adafruit_CircuitPython_MIDI/issues/37
+
+UPDATE 24th October 2021
+
+This was a two part problem, initially there was an error in Circuit Python 6 that caused that. It was fixed in Circuit Python 7.
+However, Circuit Python 7 introduces some changes that broke the main code concerning the OLED handling. Each time there was a message like:-
+
+displayio.Group(max_size=21, scale=1, x=0, y=42)
+
+There was an error of too many arguments. It was the max_size argument that was deprecated, so for each call like this you had to use:-
+displayio.Group(scale=1, x=0, y=42)
+in its place.
+The code here has been changed to reflect this.
+
+The second part of the error is that even with the change to Circuit Python 7 the Program Change would not work correctly. This was traced down to the OS version I was using on my Mac laptop. Apparently using macOS Mojave V10.14.6 still resulted in the error. I have tested it on an iMac running macOS Big Sur V11.6 and it works correctly.  
+ 
   

@@ -206,7 +206,8 @@ def initOLED():
     display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
     
     # Make the display context
-    splash = displayio.Group(max_size=10)
+    # splash = displayio.Group(max_size=10)
+    splash = displayio.Group()
     NUM_OF_COLOR = 2
     bitmap = displayio.Bitmap(WIDTH, HEIGHT, NUM_OF_COLOR)
     bitmap_palette = displayio.Palette(NUM_OF_COLOR)
@@ -219,13 +220,13 @@ def initOLED():
     splash.append(tileGrid)
     '''    
     # Define the splash screen
-    text_group1 = displayio.Group(max_size=10, scale=3, x=0, y=30)
+    text_group1 = displayio.Group(scale=3, x=0, y=30)
     text1 = "HexKeys"
     text_area1 = label.Label(terminalio.FONT, text=text1, color=0xFFFFFF)
     text_group1.append(text_area1)
     splash.append(text_group1)
     
-    text_group2 = displayio.Group(max_size=13, scale=1, x=34, y=55)
+    text_group2 = displayio.Group(scale=1, x=34, y=55)
     text2 = "By Mike Cook"
     text_area2 = label.Label(terminalio.FONT, text=text2, color=0xFFFFFF)
     text_group2.append(text_area2)
@@ -236,45 +237,45 @@ def initOLED():
     
     # Define the select screen for picking a MIDI voice This is used when mode = 1 or 2
     selectLine =[" "] * 5
-    selectGroup = displayio.Group(max_size=10)
+    selectGroup = displayio.Group()
     hilightRect = Rect(0, 36, 128, 13, fill=0xFFFFFF)
     selectGroup.append(hilightRect)
     
-    text_select = displayio.Group(max_size=21, scale=1, x=0, y=6)
+    text_select = displayio.Group(scale=1, x=0, y=6)
     select_title = " Change Voice - Group"
     select_title = label.Label(terminalio.FONT, text=select_title, color=0xFFFFFF)
     text_select.append(select_title)
     selectGroup.append(text_select)
 
-    text_line1 = displayio.Group(max_size=21, scale=1, x=0, y=19)
+    text_line1 = displayio.Group(scale=1, x=0, y=19)
     select_line1 = " "    
     select_line1 = label.Label(terminalio.FONT, text=select_line1, color=0xFFFFFF)
     selectLine[0] = select_line1
     text_line1.append(select_line1)
     selectGroup.append(text_line1)
 
-    text_line2 = displayio.Group(max_size=21, scale=1, x=0, y=29)
+    text_line2 = displayio.Group(scale=1, x=0, y=29)
     select_line2 = " "
     select_line2 = label.Label(terminalio.FONT, text=select_line2, color=0xFFFFFF)
     selectLine[1] = select_line2
     text_line2.append(select_line2)
     selectGroup.append(text_line2)
     
-    text_line3 = displayio.Group(max_size=21, scale=1, x=0, y=42)
+    text_line3 = displayio.Group(scale=1, x=0, y=42)
     select_line3 = voiceGroups[0]
     select_line3 = label.Label(terminalio.FONT, text=select_line3, color=0x0)
     selectLine[2] = select_line3
     text_line3.append(select_line3)
     selectGroup.append(text_line3)
 
-    text_line4 = displayio.Group(max_size=21, scale=1, x=0, y=54)
+    text_line4 = displayio.Group(scale=1, x=0, y=54)
     select_line4 = voiceGroups[1]
     select_line4 = label.Label(terminalio.FONT, text=select_line4, color=0xFFFFFF)
     selectLine[3] = select_line4
     text_line4.append(select_line4)
     selectGroup.append(text_line4)
     
-    text_line5 = displayio.Group(max_size=21, scale=1, x=0, y=63)
+    text_line5 = displayio.Group(scale=1, x=0, y=63)
     select_line5 = voiceGroups[2]
     select_line5 = label.Label(terminalio.FONT, text=select_line5, color=0xFFFFFF)
     selectLine[4] = select_line5
@@ -282,38 +283,38 @@ def initOLED():
     selectGroup.append(text_line5)
 
     # Define the play screen    
-    playGroup = displayio.Group(max_size=10)
-    text_group2 = displayio.Group(max_size=21, scale=1, x=0, y=6)
+    playGroup = displayio.Group()
+    text_group2 = displayio.Group(scale=1, x=0, y=6)
     title_text1 = "      Play Mode"
     title_text = label.Label(terminalio.FONT, text=title_text1, color=0xFFFFFF)
     text_group2.append(title_text)
     playGroup.append(text_group2)
         
-    text_group4 = displayio.Group(max_size=5, scale=1, x=0, y=55)
+    text_group4 = displayio.Group(scale=1, x=0, y=55)
     chan_text = "Ch 1"
     chan_text = label.Label(terminalio.FONT, text=chan_text, color=0xFFFFFF)
     text_group4.append(chan_text)    
     playGroup.append(text_group4)
 
-    text_group5 = displayio.Group(max_size=7, scale=1, x=34, y=55)
+    text_group5 = displayio.Group(scale=1, x=34, y=55)
     shift_text = "Shift 0"
     shift_text = label.Label(terminalio.FONT, text=shift_text, color=0xFFFFFF)
     text_group5.append(shift_text)    
     playGroup.append(text_group5)
 
-    text_group6 = displayio.Group(max_size=7, scale=1, x=85, y=55)
+    text_group6 = displayio.Group(scale=1, x=85, y=55)
     vel_text = "Vel 64"
     vel_text = label.Label(terminalio.FONT, text=vel_text, color=0xFFFFFF)
     text_group6.append(vel_text)    
     playGroup.append(text_group6)
     
-    note_display = displayio.Group(max_size=5, scale=3, x=20, y=30)
+    note_display = displayio.Group(scale=3, x=20, y=30)
     note_text = " "
     note_text = label.Label(terminalio.FONT, text=note_text, color=0xFFFFFF)
     note_display.append(note_text)    
     #playGroup.append(note_display)
     
-    pecus_display = displayio.Group(max_size=22, scale=2, x=0, y=30)
+    pecus_display = displayio.Group(scale=2, x=0, y=30)
     smNote_text = " "
     smNote_text = label.Label(terminalio.FONT, text=smNote_text, color=0xFFFFFF)
     pecus_display.append(smNote_text)
